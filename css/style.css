@@ -1,0 +1,514 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    left: 10%;
+}
+/* common paddings and margins -------------------*/
+.padding-16{
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.margin-right{
+    margin-right: 16px;
+}
+.margin-16{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.padding-24{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.padding-32{
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+.padding-64{
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+/* common tags */
+hr{
+    width: 200px;
+    color: #7c7c7c!important;
+}
+.text-medium-grey{
+    color: #757575!important;
+}
+.aside{
+    left: 0%;
+    margin: 0%;
+    height: 100%;
+    padding: 0%;
+    vertical-align: center;
+    position: fixed;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    overflow: auto;
+    justify-content: space-evenly;
+    width: 120px;
+    background-color: rgb(38 36 36);
+}
+.aside a{
+    color: white;
+    text-decoration: none;
+    margin: 20px 0px;
+    height: 150px;
+}
+.home{
+    background-color: rgb(0, 0, 0);
+}
+.home:hover{
+    background-color: rgb(190, 190, 190);
+}
+.nav-link-dark:hover{
+    background-color: rgb(0, 0, 0);
+}
+.side-nav-link{
+    padding: 24px 24px!important;
+    font-size: 12px;
+}
+.side-image{
+    margin-top: 0px;
+}
+.side-image img{
+    background-image: url("img/portfolio-small.jpg");
+    width: 120px;
+    height: 134px;
+    vertical-align: middle;
+}
+
+/* -------------right container-------------------------- */
+.right-side-container{
+    margin-top: 0px;
+    
+}
+.hero{
+    text-align: center;
+    background-image: url("img/portfolio-large.jpg");
+    width: 100%;
+    height: 1103px;
+    
+    padding: 50px;
+    padding-bottom: 32px!important;
+}
+.hero h1{
+    font-size: 60px;
+}
+/* personal details section-------------------------------*/
+.personal-details{
+    margin: 130px;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 64px;
+    letter-spacing: 1px;
+    color: #f1f1f1!important;
+}
+.details p{
+    color: #757575;
+}
+/* Skill bars ------------------------ */
+.skills{
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+}
+.progress-bar{
+    display: block;
+    height: 28px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+.progress-bars-container p{
+    /* float: left;
+    text-align: left;
+    align-content: left;
+    margin-top: 5px; */
+    padding: 16px 0px;
+    color: #616161;
+    letter-spacing: 4px;
+}
+.progress{
+    display: block;
+    padding: 0px;
+    height: 28px;
+    margin: 0px;
+    background-color: #616161;
+}
+.photography-progress-bar{
+    width: 95%;
+}
+.design-progress-bar{
+    width: 80%;
+}
+.Photoshop-progress-bar{
+    width: 70%;
+}
+/* number of projects done -------------------------------------- */
+.number-of-projects{
+    margin: 16px auto;
+    padding: 16px auto;
+    display: block;
+    /* text-align: center; */
+    background-color: #f1f1f1;
+    color: black;
+}
+.projects-row{
+    margin: 16px auto;
+    display: flex;
+}
+.row{
+    text-align: center;
+    width: 24%;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+/* download-button ------------------- */
+.download-button{
+    background-color: #f1f1f1;
+    color: black;
+    padding: 12px 24px!important;
+    outline-style: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+    border-style: none;
+}
+.button:hover{
+    background-color: #cccccc;
+}
+/* price cards------------------------------------------------ */
+.my-price{
+    display: block;
+    width: 100%;
+    
+}
+.my-price-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.price-card-row{
+    display: flex;
+    margin: 0px -8px;
+}
+.price-card-row ul{
+    list-style: none;
+}
+.price-card{
+    width: 49%;
+    padding: 0 8px;
+    opacity: 60%;
+    text-align: center;   
+}
+.price-card ul{
+    margin: 0%;
+    padding: 0%;
+}
+.heading{
+    background-color: #616161!important;
+    color: rgb(255, 255, 255)!important;
+    font-size: 24px!important;
+}
+
+.price-card-list{
+    background-color: #f0f0f0!important;
+    color: rgba(0, 0, 0, 0.781);
+}
+.list{
+    background-color: #ffffff!important;
+    color: rgb(36, 36, 36)!important;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.60);
+}
+.my-price-button{
+    padding: 12px 24px;
+    background-color: #ffffff!important;
+    border-style: none;
+}
+.button-row{
+    background-color: #c0c0c0!important;
+}
+.price-card:hover{
+    opacity: 100%;
+}
+/* Reviews----------------------------------------- */
+.reviews{
+    display: block;
+}
+.reviews p{
+    margin-right: 16px;
+    margin-top: 8px;
+}
+.name{
+    font-size: 18px;
+    margin-right: 16px;
+}
+.reviews img{
+    width: 80px;
+    margin-right: 16px!important;
+    float: left!important;
+    border-radius: 50%;
+}
+.review-block{
+    color: #757575!important;
+}
+/* --------photos------------------- */
+.photos{
+    display: flex;
+    margin-left: -8px;
+}
+.photos img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.half-column{
+    width: 49%;
+    padding: 0 8px;
+    text-align: center;   
+}
+/* contact block--------------------- */
+.contact-block{
+    display: flex;
+    color: #757575;
+}
+.contact-block i{
+    font-size: 36px;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff!important;
+}
+/* contact block--------form------------- */
+.contact-form{
+    letter-spacing: 1px;
+    color: #757575;
+}
+.input{
+    padding: 16px 8px;
+    display: block;
+    width: 100%;
+}
+.input-button{
+    background-color: #f1f1f1;
+    color: black;
+    padding: 12px 24px!important;
+    outline-style: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+    border-style: none;
+}
+footer{
+    display: block;
+    margin-top: 30px;
+}
+.footer-icon{
+ font-size: 28px!important;
+ padding: 16px 0px;
+}
+.footer-icon:hover{
+    color: rgb(255, 255, 255);
+}
+.footer-link:hover{
+   color: green;
+}
+/* hidden divs  */
+.top-nav-bar{
+    display: none;
+}
+.name-heading-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        left: 0%;
+    }
+    body h2{
+        font-size: 64px!important;
+    }
+    body hr{
+        height: 3px;
+        width: 40%;
+        padding: 16px 0px;
+    }
+    body h3{
+        font-size: 64px;
+        padding: 30px 0px;
+    }
+    .row h4{
+        font-size: 56px;
+    }
+    .row{
+        margin: 16px 0px;
+        width: 100%;
+        letter-spacing: 4px;
+    }
+    .price-card{
+        float: left;
+        width: 100%;
+        text-align: center;  
+    }
+  
+    .photos{
+        display: block;
+        width: 100%;
+    }
+    .aside{
+        display: none;
+    }
+    .hero h1{
+        font-size: 130px!important;
+        letter-spacing: 4px;
+        text-align: center;
+        font-weight: 400;
+        font-family: "Montserrat", sans-serif;
+    }
+    .hero{
+        margin-top: 132px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-bottom: 250px;
+    }
+    .half-column{
+        width: 100%;
+    }
+    .my-contact > h2, p, .fa{
+        font-size: 36px;
+    }
+    .top-nav-bar{
+        display: block;
+        top: 0%;
+        opacity: 1;
+        left: 0%;
+        height: 100px;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        width: 100%;
+        z-index: 3;
+        position: fixed;
+    }
+    .top-nav-link{
+        text-align: center;
+        display: inline-block;
+        padding: 8px 18px;
+        margin: -16px 0px;
+        width: 24.5%;
+        
+    }
+    .top-nav-link p{
+        margin-top: 24px;
+        font-size: 30px!important;
+        border-style: none;
+        list-style: none;
+        letter-spacing: 1px;
+    }
+    .top-nav-home{
+        background-color: rgb(209, 209, 209);
+        color: rgb(37, 37, 37);
+        height: 100px;
+    }
+    .h1-span{
+        display: none;
+    }
+    /* details below hero */
+    .details{
+        margin-top: 250px;
+    }
+    /* photos */
+    .photos img{
+        margin-bottom: 26px;
+    }
+    /* price cards */
+    .price-card-row{
+        display: block;
+    }
+    .price-card{
+        padding-bottom: 32px;
+    }
+    .personal-details{
+        margin: 50px 50px;
+    }
+    .list{
+        font-size: 40px;
+        padding: 24px 0px;
+    }
+    .heading{
+        padding: 40px 0px;
+    }
+    /* projects row */
+    .projects-row{
+        display: block;
+       
+    }
+    .row{
+        padding: 34px 0px;
+        letter-spacing: 2px;
+    }
+    /* contact block */
+    .input{
+        height: 80px;
+        padding: 0px 16px;
+        letter-spacing: 4px;
+        font-size: 30px;
+    }
+    /* button----------------- */
+    .button{
+        font-size: 30px;
+        font-size: 34px;
+        letter-spacing: 2px;
+        padding: 18px 50px;
+    }
+    .my-price-button{
+        font-size: 40px;
+        padding: 18px 50px;
+        margin: 30px;
+    }
+    .progress-bar, .progress{
+        height: 64px;
+        margin: 16px 0px;
+    }
+    /* reviews image */
+    .reviews img{
+        width: 150px;
+        margin-right: 24px;
+    }
+    .name{
+        font-size: 45px;
+        padding-right: 40px;
+    }
+    .review-block{
+        padding: 40px 0px;
+    }
+    /* footer */
+    .footer-icon{
+        font-size: 64px!important;
+        letter-spacing: 4px;
+        padding: 24px 0px;
+    }
+}

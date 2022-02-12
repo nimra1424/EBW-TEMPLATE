@@ -1,0 +1,55 @@
+.mega-menu {
+  background-color: #dfe9eb;
+  width: 100%;
+  display: flex !important;
+  left: 0;
+  position: absolute;
+  z-index: 4;
+  color: black;
+  padding: 29px 0 55px;
+  margin-top: 42px;
+  margin: 0%;
+  padding: 0%;
+  font-family: "HelveticaNeueLTW01-75Bold"; }
+  .mega-menu li {
+    list-style: none;
+    color: black; }
+    .mega-menu li a {
+      text-decoration: none; }
+  .mega-menu .mega-menu_list {
+    display: block;
+    margin-right: 53px; }
+    .mega-menu .mega-menu_list .menu-list-heading {
+      line-height: 1.125rem;
+      font-size: 0.75rem; }
+    .mega-menu .mega-menu_list .menu-list-items {
+      color: black;
+      padding-left: 0px;
+      line-height: 2rem;
+      font-size: 0.75rem; }
+    .mega-menu .mega-menu_list .mega-menu-list-heading {
+      margin-top: 34px;
+      margin-right: 58px;
+      font-weight: 700;
+      color: #EA4375; }
+      .mega-menu .mega-menu_list .mega-menu-list-heading .right {
+        padding-left: 10px; }
+      .mega-menu .mega-menu_list .mega-menu-list-heading .category-heading-list {
+        display: block; }
+    .mega-menu .mega-menu_list .mega-menu-image {
+      font-size: 0.75rem;
+      height: 500px;
+      overflow: hidden; }
+      .mega-menu .mega-menu_list .mega-menu-image .mega-text .mega-text-span {
+        line-height: 0.875rem;
+        border: none;
+        display: block;
+        margin: 14px 0 8px;
+        font-family: "HelveticaNeueLTW01-Regular"; }
+      .mega-menu .mega-menu_list .mega-menu-image .mega-text .mega-text-a {
+        border-bottom: 1px solid #000;
+        line-height: 1.0625rem;
+        padding: 0;
+        display: block; }
+
+/*# sourceMappingURL=mega-menu.css.map */

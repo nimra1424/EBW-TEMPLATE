@@ -1,0 +1,41 @@
+
+// contact section
+.contact{
+    background-color: #dfe9eb;
+    padding: 8px 149.5px;
+    height: 80px;
+    display: flex;
+    .need-help{
+        font-size: 32px;
+        font-weight: map-get($font-weights, bold);
+        text-align: left;
+        margin-top: 10px;
+        color: $text-color;
+    }
+    .contact-links{
+        justify-content: space-between;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        // padding: 8px 0px 8px 142px;
+        padding-right: 40px;
+        color: $text-color;
+        display: flex;
+            a{
+            margin-right: 50px;
+            }
+        .contact-icon{
+            background-color: mintcream;
+            color: rgb(52, 52, 58);
+            border-radius: 50%;
+            width: 56px;
+            height: 56px;
+            padding-top: 20px;
+            padding-left: 19px;
+            font-size: 20px;
+
+        }
+       
+    }
+}
+
